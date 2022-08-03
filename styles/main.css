@@ -12,6 +12,7 @@ nav .nav-text h1 {
   color: rgb(11, 0, 45);
   font-size: 50px;
   margin: 0;
+  font-weight: normal;
 }
 nav .nav-sections {
   display: flex;
