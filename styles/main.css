@@ -90,4 +90,56 @@ nav .nav-sections .nav-items p {
 }
 #collection-swimwear .swimwear .swimwear-item .item p {
   text-align: center;
+}
+
+@media all and (max-width: 700px) {
+  body {
+    margin: 0;
+    width: 100%;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav .nav-text {
+    margin: 30px 0px;
+  }
+  nav .nav-text h1 {
+    font-size: 30px;
+  }
+  nav .nav-sections .nav-items img {
+    width: 70px;
+    height: 70px;
+  }
+  nav .nav-sections .nav-items p {
+    font-size: 13px;
+  }
+  .intro-banner {
+    display: none;
+  }
+  #collection-accesories {
+    flex-direction: column;
+    margin: 50px;
+  }
+  #collection-accesories .summer-img img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+  }
+  #collection-accesories .collection-sections .collection-text p {
+    font-size: 13px;
+  }
+  #collection-accesories .collection-sections .collection {
+    flex-direction: column;
+  }
+  #collection-swimwear {
+    flex-direction: column;
+  }
+  #collection-swimwear img {
+    width: 300px;
+    height: 350px;
+    margin: 30px;
+  }
+  #collection-swimwear .swimwear .swimwear-item {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=main.css.map */
