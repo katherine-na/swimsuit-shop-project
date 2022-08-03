@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/collection.css" />
+    <title>Swimwear | Bikini</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-text">
+        <a href="index.html">Sunshine</a>
+      </div>
+      <div class="nav-sections">
+        <div class="nav-items">
+          <a href="swims.html">
+            <img src="images/swimsuit-nav.jpg" alt="" />
+          </a>
+          <p>Swimsuit</p>
+        </div>
+        <div class="nav-items">
+          <a href="accesories.html">
+            <img src="images/accesories-nav.jpg" alt="" />
+          </a>
+          <p>Accesories</p>
+        </div>
+        <div class="nav-items">
+          <a href="collection.html">
+            <img src="images/bikini-nav.jpg" alt="" />
+          </a>
+          <p>Bikini</p>
+        </div>
+      </div>
+    </nav>
+    <section id="display">
+      <div class="display-gallery">
+        <div id="display-container"></div>
+      </div>
+
+      <div class="gallery">
+        <div class="gallery-items">
+          <img
+            class="preview"
+            src="images/picture1.jpg"
+            onmouseover="upDate(this)"
+            onmouseout="unDo()"
+          />
+          <p>TEXTURED SWIMSUIT</p>
+        </div>
+        <div class="gallery-items">
+          <img
+            class="preview"
+            src="images/picture2.jpg"
+            onmouseover="upDate(this)"
+            onmouseout="unDo()"
+          />
+          <p>MULTI-WAY BIKINI TOP</p>
+        </div>
+        <div class="gallery-items">
+          <img
+            class="preview"
+            src="images/picture3.jpg"
+            onmouseover="upDate(this)"
+            onmouseout="unDo()"
+          />
+          <p>TEXTURE BIKINI</p>
+        </div>
+      </div>
+    </section>
+    <script src="collecMain.js"></script>
+  </body>
+</html>
