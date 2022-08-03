@@ -1,0 +1,92 @@
+body {
+  margin: 50px;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-text h1 {
+  color: rgb(11, 0, 45);
+  font-size: 50px;
+  margin: 0;
+}
+nav .nav-sections {
+  display: flex;
+}
+nav .nav-sections .nav-items {
+  margin: 0px 20px;
+}
+nav .nav-sections .nav-items img {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+}
+nav .nav-sections .nav-items p {
+  text-align: center;
+  color: black;
+  margin: 0;
+}
+
+.intro-banner {
+  width: 100%;
+  margin: 50px 0px;
+}
+
+#collection-accesories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#collection-accesories .summer-img img {
+  width: 650px;
+  height: 610px;
+}
+#collection-accesories .collection-sections {
+  display: flex;
+  flex-direction: column;
+}
+#collection-accesories .collection-sections .collection-text p {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+#collection-accesories .collection-sections .collection {
+  display: flex;
+}
+#collection-accesories .collection-sections .collection img {
+  width: 250px;
+  height: 300px;
+  margin-inline: 30px;
+}
+#collection-accesories .collection-sections .collection p {
+  text-align: center;
+}
+
+#collection-swimwear {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#collection-swimwear img {
+  width: 550px;
+  height: 750px;
+}
+#collection-swimwear .swimwear .swimwear-item {
+  display: flex;
+}
+#collection-swimwear .swimwear .swimwear-item .item img {
+  width: 250px;
+  height: 300px;
+  margin-inline: 30px;
+}
+#collection-swimwear .swimwear .swimwear-item .item p {
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

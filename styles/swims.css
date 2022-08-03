@@ -1,0 +1,62 @@
+body {
+  margin: 3%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-text a {
+  text-decoration: none;
+  color: rgb(11, 0, 45);
+  font-size: 50px;
+  margin: 0;
+}
+nav .nav-sections {
+  display: flex;
+}
+nav .nav-sections .nav-items {
+  margin: 0px 20px;
+}
+nav .nav-sections .nav-items img {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+}
+nav .nav-sections .nav-items p {
+  text-align: center;
+  color: black;
+  margin: 0;
+}
+
+#display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#display .display-gallery {
+  display: flex;
+}
+#display .display-gallery #display-container {
+  display: flex;
+  border: 1px solid black;
+  width: 500px;
+  height: 665px;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery .gallery-items img {
+  width: 320px;
+  height: 400px;
+  margin: 10px;
+}
+.gallery .gallery-items p {
+  text-align: center;
+}/*# sourceMappingURL=swims.css.map */
