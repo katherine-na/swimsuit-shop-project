@@ -77,11 +77,14 @@ nav .nav-sections .nav-items p {
 #collection-accesories .collection-sections .collection .collection-item a {
   text-decoration: none;
   text-align: center;
-  background-color: rgb(145, 143, 143);
+  background-color: rgb(8, 0, 87);
   padding: 10px;
   border-radius: 50px;
   color: white;
   width: 100px;
+}
+#collection-accesories .collection-sections .collection .collection-item a:hover {
+  background-color: rgb(1, 1, 124);
 }
 
 #collection-swimwear {
@@ -122,14 +125,14 @@ nav .nav-sections .nav-items p {
 #collection-swimwear .swimwear .swimwear-item .item a {
   text-decoration: none;
   text-align: center;
-  background-color: rgb(145, 143, 143);
+  background-color: rgb(8, 0, 87);
   padding: 10px;
   border-radius: 50px;
   color: white;
   width: 100px;
 }
 #collection-swimwear .swimwear .swimwear-item .item a:hover {
-  background-color: rgb(168, 166, 166);
+  background-color: rgb(1, 1, 124);
 }
 
 @media all and (max-width: 700px) {
