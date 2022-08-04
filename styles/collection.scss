@@ -76,5 +76,51 @@
     }
   }
   
-  @media (max-width: 600px) {
-  }
+    // Responsive Design //
+
+    @media all and (max-width:700px) {
+
+      body {
+        margin: 10px;
+      }
+  
+      nav {
+        flex-direction: column;
+        .nav-text {
+          margin: 30px 0px;
+          a {
+            font-size: 30px;
+          }
+        }
+      
+        .nav-sections {
+          .nav-items {
+            img {
+              width: 70px;
+              height: 70px;
+            }
+            p {
+              font-size: 13px;
+            }
+          }
+        }
+      }
+
+      #display {
+        .display-gallery {
+          display: none;
+        }
+
+        .gallery {
+          .gallery-items {
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            img {
+              width: 95%;
+            }
+          }
+        }
+      }
+
+    }
