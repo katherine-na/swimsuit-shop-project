@@ -20,6 +20,10 @@ nav {
       font-size: 50px;
       margin: 0;
     }
+    p {
+      font-size: 35px;
+      margin: 0;
+    }
   }
   .nav-sections{
     display: flex;
@@ -48,13 +52,15 @@ nav {
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
     margin: 30px;
+    padding: 20px;
     .tabs__img {
       img {
         width: 260px;
         height: 350px;
       }
     }
-    .tabs-items {
+    .tabs__items {
+      margin: 100px;
     }
   }
 }
