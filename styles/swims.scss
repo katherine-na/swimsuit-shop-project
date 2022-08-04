@@ -1,9 +1,3 @@
-@mixin img_gallery {
-  width: 320px;
-  height: 400px;
-  margin: 10px;
-}
-
 @mixin nav_img {
   width: 80px;
   height: 80px;
@@ -45,36 +39,28 @@ nav {
   
 }
 
-#display {
+#tabs__section {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  .display-gallery {
+  .tabs__list {
+    width: 50%;
     display: flex;
-    #display-container {
-      display: flex;
-      border: 1px solid black;
-      width: 500px;
-      height: 665px;
-      background-image: url("");
-      background-repeat: no-repeat;
-      background-size: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+    margin: 30px;
+    .tabs__img {
+      img {
+        width: 260px;
+        height: 350px;
+      }
+    }
+    .tabs-items {
     }
   }
 }
 
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  .gallery-items {
-    img {
-      @include img_gallery;
-    }
-    p {
-      text-align: center;
-    }
-  }
-}
+
+
 
 // Responsive Design //
 
@@ -107,18 +93,5 @@ nav {
   }
 
 }
-#display {
-  .display-gallery {
-    display: none;
-  }
 
-  .gallery {
-    .gallery-items {
-      margin-top: 50px;
-      img {
-        width: 95%;
-      }
-    }
-  }
-}
 
