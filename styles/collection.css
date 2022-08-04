@@ -60,4 +60,37 @@ nav .nav-sections .nav-items p {
 }
 .gallery .gallery-items p {
   text-align: center;
+}
+
+@media all and (max-width: 700px) {
+  body {
+    margin: 10px;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav .nav-text {
+    margin: 30px 0px;
+  }
+  nav .nav-text a {
+    font-size: 30px;
+  }
+  nav .nav-sections .nav-items img {
+    width: 70px;
+    height: 70px;
+  }
+  nav .nav-sections .nav-items p {
+    font-size: 13px;
+  }
+  #display .display-gallery {
+    display: none;
+  }
+  #display .gallery .gallery-items {
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #display .gallery .gallery-items img {
+    width: 95%;
+  }
 }/*# sourceMappingURL=collection.css.map */
