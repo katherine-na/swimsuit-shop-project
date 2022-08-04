@@ -59,13 +59,29 @@ nav .nav-sections .nav-items p {
 #collection-accesories .collection-sections .collection {
   display: flex;
 }
-#collection-accesories .collection-sections .collection img {
+#collection-accesories .collection-sections .collection .collection-item {
+  margin: 30px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+#collection-accesories .collection-sections .collection .collection-item img {
   width: 250px;
   height: 300px;
-  margin-inline: 30px;
 }
-#collection-accesories .collection-sections .collection p {
+#collection-accesories .collection-sections .collection .collection-item p {
   text-align: center;
+}
+#collection-accesories .collection-sections .collection .collection-item a {
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(145, 143, 143);
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
+  width: 100px;
 }
 
 #collection-swimwear {
@@ -80,16 +96,40 @@ nav .nav-sections .nav-items p {
   width: 550px;
   height: 750px;
 }
+#collection-swimwear .swimwear .swimwear-subtitle p {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+}
 #collection-swimwear .swimwear .swimwear-item {
   display: flex;
+}
+#collection-swimwear .swimwear .swimwear-item .item {
+  margin: 30px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 #collection-swimwear .swimwear .swimwear-item .item img {
   width: 250px;
   height: 300px;
-  margin-inline: 30px;
 }
 #collection-swimwear .swimwear .swimwear-item .item p {
   text-align: center;
+}
+#collection-swimwear .swimwear .swimwear-item .item a {
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(145, 143, 143);
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
+  width: 100px;
+}
+#collection-swimwear .swimwear .swimwear-item .item a:hover {
+  background-color: rgb(168, 166, 166);
 }
 
 @media all and (max-width: 700px) {
