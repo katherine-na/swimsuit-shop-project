@@ -89,6 +89,7 @@ nav .nav-sections .nav-items p {
   }
   #tabs__section .tabs__list .tabs__img img {
     width: 200px;
+    height: 255px;
   }
   #tabs__section .tabs__list .tabs__text {
     display: flex;
