@@ -19,7 +19,7 @@
 @mixin buttom {
   text-decoration: none;
   text-align: center;
-  background-color: rgb(145, 143, 143);
+  background-color: rgb(8, 0, 87);
   padding: 10px;
   border-radius: 50px;
   color: white;
@@ -109,6 +109,9 @@ nav {
       }
       a {
         @include buttom;
+        &:hover {
+          background-color: rgb(1, 1, 124);
+        }
       }
 
     }
@@ -151,8 +154,8 @@ nav {
         a {
           @include buttom;
           &:hover {
-            background-color: rgb(168, 166, 166);
-          }
+              background-color: rgb(1, 1, 124);
+           }
         }
       }
     }
