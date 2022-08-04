@@ -1,9 +1,3 @@
-@mixin img_gallery {
-    width: 320px;
-    height: 400px;
-    margin: 10px;
-  }
-  
   @mixin nav_img {
     width: 80px;
     height: 80px;
@@ -50,22 +44,23 @@
   }
   
   #tabs__section {
+    margin: 50px 0;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     .tabs__list {
       width: 50%;
+      padding: 20px;
+      margin: 20px;
       display: flex;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
-      margin: 30px;
-      padding: 20px;
       .tabs__img {
         img {
           width: 260px;
           height: 350px;
         }
       }
-      .tabs__items {
+      .tabs__text {
         margin: 100px;
       }
     }
