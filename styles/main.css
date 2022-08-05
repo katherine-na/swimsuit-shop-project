@@ -136,8 +136,8 @@ nav .nav-sections .nav-items p {
 }
 
 footer {
-  background-color: rgba(189, 189, 189, 0.705);
-  padding: 10px;
+  background-color: rgba(236, 236, 236, 0.705);
+  padding: 50px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -145,10 +145,15 @@ footer .form__name {
   margin: 5px;
 }
 footer .form__name .bi {
+  margin: 0 10px;
   font-size: 25px;
 }
 footer .form__name label {
   display: block;
+}
+footer .form__name span {
+  display: flex;
+  align-items: center;
 }
 footer .form__name span input {
   width: 200px;
@@ -159,10 +164,15 @@ footer .form__email {
   margin: 5px;
 }
 footer .form__email .bi {
+  margin: 0 10px;
   font-size: 25px;
 }
 footer .form__email label {
   display: block;
+}
+footer .form__email span {
+  display: flex;
+  align-items: center;
 }
 footer .form__email span input {
   width: 200px;
@@ -184,7 +194,13 @@ footer .form__gender {
 footer .form__gender p {
   margin: 5px 0px;
 }
+footer .form__gender span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 footer .form__gender span input {
+  margin-right: 50px;
   width: 20px;
   height: 20px;
 }
@@ -195,6 +211,7 @@ footer .form__button button {
   margin: 10px 0;
   padding: 10px;
   width: 100px;
+  border-radius: 20px;
 }
 footer .card__apps {
   display: flex;
