@@ -162,6 +162,22 @@ nav {
   }
 }
 
+footer {
+  .card__actions {
+    form {
+      label {
+        display: block;
+      }
+      span {
+        label {
+          display: inline;
+        }
+      }
+    }
+  }
+}
+
+
 // Responsive Design //
 
 @media all and (max-width:700px) {

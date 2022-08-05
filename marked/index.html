@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <title>Sunshine</title>
   </head>
   <body>
@@ -108,10 +109,31 @@
       </div>
     </div>
     </section>
-    <footer>
-      <p>
-      &copy; Katherine Negrete Aguilar
-      </p>
+    <footer class="card__footer">
+      <div class="card__actions">
+        <form>
+          <label for="name">Name</label>
+          <span>
+            <i class="bi bi-person-fill"></i>
+            <input type="text" id="name"/>
+          </span>
+          <label for="email">Email</label>
+          <span>
+            <i class="bi bi-envelope"></i>
+            <input type="text" id="name"/>
+          </span>
+          <label></label>
+          <label>Genero</label>
+          <span>
+            <label for="genero">Man</label>
+            <input type="radio" id="genero"/>
+          </span>
+          <span>
+            <label for="genero">Woman</label>
+            <input type="radio" id="genero"/>
+          </span>
+        </form>
+      </div>
     </footer>
   </body>
 </html>
