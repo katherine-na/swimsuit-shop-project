@@ -31,6 +31,8 @@ nav .nav-sections .nav-items p {
 }
 
 footer {
+  position: absolute;
+  bottom: 0;
   background-color: rgba(236, 236, 236, 0.705);
   padding: 20px;
   display: flex;
@@ -104,10 +106,16 @@ footer .form__button {
   margin: 5px;
 }
 footer .form__button button {
+  background-color: rgb(214, 214, 215);
+  font-size: 20px;
   margin: 10px 0;
   padding: 10px;
-  width: 100px;
-  border-radius: 20px;
+  width: 150px;
+  border-radius: 30px;
+  border: 0;
+}
+footer .form__button button:hover {
+  background-color: rgb(205, 205, 205);
 }
 footer .card__apps {
   display: flex;
@@ -142,6 +150,7 @@ footer .card__apps .apps-item p {
 }
 body {
   margin: 3%;
+  margin-bottom: 0;
   font-family: sans-serif;
 }
 
