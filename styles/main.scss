@@ -28,16 +28,32 @@
 
 @mixin card {
   margin: 30px;
-        padding: 20px 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
-  
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+@mixin form {
+  margin: 5px;
+  .bi {
+    font-size: 25px;
+  }
+  label {
+    display: block;
+  }
+  span {
+    input {
+      width: 200px;
+      padding: 5px;
+      border-radius: 20px;
+    }
+  }
 }
 
 body {
-  margin: 50px;
+  margin: 20px;
   font-family: sans-serif;
 }
 
@@ -53,7 +69,7 @@ nav {
       font-weight: normal;
     }
   }
-  .nav-sections{
+  .nav-sections {
     display: flex;
     .nav-items {
       margin: 0px 20px;
@@ -66,9 +82,7 @@ nav {
         margin: 0;
       }
     }
-
   }
-  
 }
 
 .intro-banner {
@@ -88,35 +102,34 @@ nav {
       height: 610px;
     }
   }
- .collection-sections{
-  display: flex;
-  flex-direction: column;
-  .collection-text {
-    p {
-      @include index_font;
-      text-align: center;
-    }
-  }
-  .collection {
+  .collection-sections {
     display: flex;
-    .collection-item {
-      @include card;
-      img {
-        @include collection_img;
-      }
+    flex-direction: column;
+    .collection-text {
       p {
+        @include index_font;
         text-align: center;
       }
-      a {
-        @include buttom;
-        &:hover {
-          background-color: rgb(1, 1, 124);
+    }
+    .collection {
+      display: flex;
+      .collection-item {
+        @include card;
+        img {
+          @include collection_img;
+        }
+        p {
+          text-align: center;
+        }
+        a {
+          @include buttom;
+          &:hover {
+            background-color: rgb(1, 1, 124);
+          }
         }
       }
-
     }
   }
- }
 }
 
 #collection-swimwear {
@@ -136,10 +149,9 @@ nav {
       p {
         text-align: center;
         @include index_font;
-        
       }
     }
-    
+
     .swimwear-item {
       display: flex;
       .item {
@@ -154,8 +166,8 @@ nav {
         a {
           @include buttom;
           &:hover {
-              background-color: rgb(1, 1, 124);
-           }
+            background-color: rgb(1, 1, 124);
+          }
         }
       }
     }
@@ -163,57 +175,98 @@ nav {
 }
 
 footer {
-  .card__actions {
-    form {
-      label {
-        display: block;
+  background-color: rgba(189, 189, 189, 0.705);
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  .form__name {
+    @include form;
+  }
+  .form__email {
+    @include form;
+  }
+  .form__news {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    input {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .form__gender {
+    margin: 15px 5px;
+    p {
+      margin: 5px 0px;
+    }
+    span {
+      input {
+        width: 20px;
+        height: 20px;
       }
-      span {
-        label {
-          display: inline;
-        }
+    }
+  }
+  .form__button {
+    margin: 5px;
+    button {
+      margin: 10px 0;
+      padding: 10px;
+      width: 100px;
+    }
+  }
+
+  .card__apps {
+    display: flex;
+    align-items: center;
+    .apps-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 30px;
+      .bi {
+        font-size: 25px;
+      }
+      p {
+        margin: 5px 0;
       }
     }
   }
 }
 
-
 // Responsive Design //
 
-@media all and (max-width:700px) {
-
+@media all and (max-width: 700px) {
   body {
     margin: 10px;
   }
 
-nav {
-  flex-direction: column;
-  .nav-text {
-    margin: 30px 0px;
-    h1 {
-      font-size: 3  0px;
+  nav {
+    flex-direction: column;
+    .nav-text {
+      margin: 30px 0px;
+      h1 {
+        font-size: 3 0px;
+      }
     }
-  }
 
-  .nav-sections {
-    .nav-items {
-      img {
-        width: 70px;
-        height: 70px;
-      }
-      p {
-        font-size: 13px;
+    .nav-sections {
+      .nav-items {
+        img {
+          width: 70px;
+          height: 70px;
+        }
+        p {
+          font-size: 13px;
+        }
       }
     }
   }
-}
 
   .intro {
     img {
       display: none;
     }
   }
-
 
   #collection-accesories {
     flex-direction: column;
@@ -234,10 +287,8 @@ nav {
       .collection {
         flex-direction: column;
       }
-      
     }
   }
-
 
   #collection-swimwear {
     flex-direction: column;
