@@ -135,6 +135,13 @@ nav .nav-sections .nav-items p {
   background-color: rgb(1, 1, 124);
 }
 
+footer .card__actions form label {
+  display: block;
+}
+footer .card__actions form span label {
+  display: inline;
+}
+
 @media all and (max-width: 700px) {
   body {
     margin: 10px;
