@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/collection.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
     <title>Sunshine | Bikini</title>
   </head>
   <body>
@@ -67,5 +69,60 @@
         </div>
       </div>
     </section>
+
+    <footer class="card__footer">
+      <div class="card__contact">
+        <form>
+          <div class="form__name">
+            <label for="name">Name</label>
+            <span>
+              <i class="bi bi-person-fill"></i>
+              <input type="text" id="name"/>
+            </span>
+          </div>
+          <div class="form__email">
+            <label for="email">Email</label>
+            <span>
+              <i class="bi bi-envelope"></i>
+              <input type="email" id="name"/>
+            </span>
+          </div>
+          <div class="form__news">
+            <label>Receive notifications of new news</label>
+            <input type="checkbox">
+          </div>
+          <div class="form__gender">
+            <p>Sex</p>
+            <span>
+              <label for="genero">Man</label>
+              <input type="radio" id="genero" name="genero"/>
+              <label for="genero">Woman</label>
+              <input type="radio" id="genero" name="genero"/>
+            </span>
+          </div>
+          <div class="form__button">
+            <button type="submit">Submit</button>
+          </div>
+       </form>
+      </div>
+      <div class="card__apps">
+        <div class="apps-item">
+          <i class="bi bi-instagram"></i>
+          <p>Instagram</p>
+        </div>
+        <div class="apps-item">
+          <i class="bi bi-google-play"></i>
+          <p>Play Store</p>
+        </div>
+        <div class="apps-item">
+          <i class="bi bi-apple"></i>
+          <p>App Store</p>
+        </div>
+        <div class="apps-item">
+          <i class="bi bi-globe"></i>
+          <p>Gmail</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
