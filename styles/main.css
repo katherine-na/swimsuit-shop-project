@@ -1,4 +1,6 @@
 footer {
+  position: absolute;
+  bottom: 0;
   background-color: rgba(236, 236, 236, 0.705);
   padding: 20px;
   display: flex;
@@ -72,10 +74,16 @@ footer .form__button {
   margin: 5px;
 }
 footer .form__button button {
+  background-color: rgb(214, 214, 215);
+  font-size: 20px;
   margin: 10px 0;
   padding: 10px;
-  width: 100px;
-  border-radius: 20px;
+  width: 150px;
+  border-radius: 30px;
+  border: 0;
+}
+footer .form__button button:hover {
+  background-color: rgb(205, 205, 205);
 }
 footer .card__apps {
   display: flex;
@@ -187,14 +195,14 @@ nav .nav-sections .nav-items p {
 #collection-accesories .collection-sections .collection .collection-item a {
   text-decoration: none;
   text-align: center;
-  background-color: rgb(8, 0, 87);
+  background-color: rgb(231, 231, 232);
   padding: 10px;
   border-radius: 50px;
-  color: white;
+  color: black;
   width: 100px;
 }
 #collection-accesories .collection-sections .collection .collection-item a:hover {
-  background-color: rgb(1, 1, 124);
+  background-color: rgb(205, 205, 205);
 }
 
 #collection-swimwear {
@@ -235,14 +243,14 @@ nav .nav-sections .nav-items p {
 #collection-swimwear .swimwear .swimwear-item .item a {
   text-decoration: none;
   text-align: center;
-  background-color: rgb(8, 0, 87);
+  background-color: rgb(231, 231, 232);
   padding: 10px;
   border-radius: 50px;
-  color: white;
+  color: black;
   width: 100px;
 }
 #collection-swimwear .swimwear .swimwear-item .item a:hover {
-  background-color: rgb(1, 1, 124);
+  background-color: rgb(205, 205, 205);
 }
 
 @media all and (max-width: 700px) {
