@@ -5,67 +5,76 @@ footer {
   padding: 20px;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   position: relative;
 }
-footer .form__name {
+footer .footer__text h2 {
+  font-size: 50px;
+  margin: 0;
+}
+footer .footer__text h3 {
+  font-size: 30px;
+  margin: 0;
+}
+footer .card__contact form .form__name {
   margin: 5px;
 }
-footer .form__name .bi {
+footer .card__contact form .form__name .bi {
   margin: 0 10px;
   font-size: 25px;
 }
-footer .form__name label {
+footer .card__contact form .form__name label {
   display: block;
 }
-footer .form__name span {
+footer .card__contact form .form__name span {
   display: flex;
   align-items: center;
 }
-footer .form__name span input {
+footer .card__contact form .form__name span input {
   width: 200px;
   padding: 5px;
   border-radius: 20px;
 }
-footer .form__email {
+footer .card__contact form .form__email {
   margin: 5px;
 }
-footer .form__email .bi {
+footer .card__contact form .form__email .bi {
   margin: 0 10px;
   font-size: 25px;
 }
-footer .form__email label {
+footer .card__contact form .form__email label {
   display: block;
 }
-footer .form__email span {
+footer .card__contact form .form__email span {
   display: flex;
   align-items: center;
 }
-footer .form__email span input {
+footer .card__contact form .form__email span input {
   width: 200px;
   padding: 5px;
   border-radius: 20px;
 }
-footer .form__news {
+footer .card__contact form .form__news {
   display: flex;
   align-items: center;
   margin: 5px;
 }
-footer .form__news input {
+footer .card__contact form .form__news input {
   width: 20px;
   height: 20px;
 }
-footer .form__gender {
+footer .card__contact form .form__gender {
   margin: 15px 5px;
 }
-footer .form__gender p {
+footer .card__contact form .form__gender p {
   margin: 5px 0px;
 }
-footer .form__gender span {
+footer .card__contact form .form__gender span {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-footer .form__gender span input {
+footer .card__contact form .form__gender span input {
   margin-right: 50px;
   width: 20px;
   height: 20px;
