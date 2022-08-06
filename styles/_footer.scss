@@ -19,24 +19,27 @@
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     background-color: rgba(236, 236, 236, 0.705);
     padding: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    position: relative;
-    .footer__text {
-      h2 {
-        font-size: 50px;
-        margin: 0;
-      }
-      h3 {
-        font-size: 30px;
-        margin: 0
+    position: absolute;
+    bottom: 0;
+    width: 92%;
+    .card__footer {
+      display: flex;
+      justify-content: space-between;
+
+      .footer__text {
+        h2 {
+          font-size: 50px;
+          margin: 0;
+        }
+        h3 {
+          font-size: 30px;
+          margin: 0
+        }
       }
     }
+    
 
     .card__contact {
       form {
@@ -112,19 +115,7 @@ footer {
   @media all and (max-width: 700px) {
 
     footer {
-      flex-direction: column;
-      .form__news {
-        label {
-          font-size: 14px;
-        }
-      }
-
-      .card__apps {
-        flex-wrap: wrap;
-        .apps-item {
-          margin: 25px;
-        }
-      }
+      display: none;
     }
 
   }
