@@ -39,7 +39,7 @@ nav .nav-icons span {
   align-items: center;
 }
 nav .nav-icons span .bi {
-  font-size: 40px;
+  font-size: 30px;
 }
 nav .nav-icons span a {
   text-decoration: none;
@@ -62,11 +62,11 @@ footer .card__footer {
   justify-content: space-between;
 }
 footer .card__footer .footer__text h2 {
-  font-size: 50px;
+  font-size: 35px;
   margin: 0;
 }
 footer .card__footer .footer__text h3 {
-  font-size: 30px;
+  font-size: 25px;
   margin: 0;
 }
 footer .card__contact form .form__name {

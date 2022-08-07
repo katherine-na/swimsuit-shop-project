@@ -1,0 +1,104 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-sections {
+  display: flex;
+}
+nav .nav-sections .nav-items {
+  margin: 0px 20px;
+}
+nav .nav-sections .nav-items img {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+}
+nav .nav-sections .nav-items p {
+  text-align: center;
+  color: black;
+  margin: 0;
+}
+nav .nav-text a {
+  text-decoration: none;
+  color: rgb(11, 0, 45);
+  font-size: 50px;
+  margin: 0;
+}
+nav .nav-text p {
+  font-size: 35px;
+  margin: 0;
+}
+nav .nav-icons {
+  display: flex;
+}
+nav .nav-icons span {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav .nav-icons span .bi {
+  font-size: 30px;
+}
+nav .nav-icons span a {
+  text-decoration: none;
+  color: black;
+  margin: 0;
+}
+nav .nav-icons span p {
+  margin: 0;
+}
+
+body {
+  margin: 3%;
+  font-family: sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px;
+}
+section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section div h1 {
+  font-size: 40px;
+  margin: 10px;
+}
+section div p {
+  font-size: 20px;
+  margin: 0;
+}
+section form {
+  display: flex;
+  flex-direction: column;
+}
+section form .form__name {
+  margin: 10px;
+}
+section form .form__name label {
+  margin: 10px;
+}
+section form .form__name input {
+  width: 300px;
+}
+section form .form__email {
+  margin: 10px;
+}
+section form .form__email label {
+  margin: 10px;
+}
+section form .form__email input {
+  width: 300px;
+}
+section form .form__button button {
+  margin: 20px;
+  width: 200px;
+  padding: 5px;
+  border-radius: 40px;
+}/*# sourceMappingURL=log.css.map */
