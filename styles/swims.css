@@ -29,8 +29,25 @@ nav .nav-text p {
   font-size: 35px;
   margin: 0;
 }
-nav .nav-icons .bi {
-  font-size: 100px;
+nav .nav-icons {
+  display: flex;
+}
+nav .nav-icons span {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav .nav-icons span .bi {
+  font-size: 40px;
+}
+nav .nav-icons span a {
+  text-decoration: none;
+  color: black;
+  margin: 0;
+}
+nav .nav-icons span p {
+  margin: 0;
 }
 
 footer {
