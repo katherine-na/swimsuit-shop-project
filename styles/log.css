@@ -3,6 +3,16 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+nav .nav-text a {
+  text-decoration: none;
+  color: rgb(11, 0, 45);
+  font-size: 50px;
+  margin: 0;
+}
+nav .nav-text p {
+  font-size: 35px;
+  margin: 0;
+}
 nav .nav-sections {
   display: flex;
 }
@@ -17,16 +27,6 @@ nav .nav-sections .nav-items img {
 nav .nav-sections .nav-items p {
   text-align: center;
   color: black;
-  margin: 0;
-}
-nav .nav-text a {
-  text-decoration: none;
-  color: rgb(11, 0, 45);
-  font-size: 50px;
-  margin: 0;
-}
-nav .nav-text p {
-  font-size: 35px;
   margin: 0;
 }
 nav .nav-icons {
@@ -86,6 +86,10 @@ section form .form__name label {
 }
 section form .form__name input {
   width: 300px;
+  padding: 10px;
+  border-radius: 40px;
+  border: 0;
+  background-color: rgb(237, 235, 235);
 }
 section form .form__email {
   margin: 10px;
@@ -95,6 +99,10 @@ section form .form__email label {
 }
 section form .form__email input {
   width: 300px;
+  padding: 10px;
+  border-radius: 40px;
+  border: 0;
+  background-color: rgb(237, 235, 235);
 }
 section form .form__button button {
   margin: 20px;
