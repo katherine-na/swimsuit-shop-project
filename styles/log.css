@@ -50,6 +50,125 @@ nav .nav-icons span p {
   margin: 0;
 }
 
+footer {
+  background-color: rgba(236, 236, 236, 0.705);
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 92%;
+}
+footer .card__footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer .card__footer .footer__text h2 {
+  font-size: 35px;
+  margin: 0;
+}
+footer .card__footer .footer__text h3 {
+  font-size: 25px;
+  margin: 0;
+}
+footer .card__contact form .form__name {
+  margin: 5px;
+}
+footer .card__contact form .form__name .bi {
+  margin: 0 10px;
+  font-size: 25px;
+}
+footer .card__contact form .form__name label {
+  display: block;
+}
+footer .card__contact form .form__name span {
+  display: flex;
+  align-items: center;
+}
+footer .card__contact form .form__name span input {
+  width: 200px;
+  padding: 5px;
+  border-radius: 20px;
+}
+footer .card__contact form .form__email {
+  margin: 5px;
+}
+footer .card__contact form .form__email .bi {
+  margin: 0 10px;
+  font-size: 25px;
+}
+footer .card__contact form .form__email label {
+  display: block;
+}
+footer .card__contact form .form__email span {
+  display: flex;
+  align-items: center;
+}
+footer .card__contact form .form__email span input {
+  width: 200px;
+  padding: 5px;
+  border-radius: 20px;
+}
+footer .card__contact form .form__news {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+footer .card__contact form .form__news input {
+  width: 20px;
+  height: 20px;
+}
+footer .card__contact form .form__gender {
+  margin: 15px 5px;
+}
+footer .card__contact form .form__gender p {
+  margin: 5px 0px;
+}
+footer .card__contact form .form__gender span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer .card__contact form .form__gender span input {
+  margin-right: 50px;
+  width: 20px;
+  height: 20px;
+}
+footer .form__button {
+  margin: 5px;
+}
+footer .form__button button {
+  background-color: rgb(214, 214, 215);
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 10px;
+  width: 150px;
+  border-radius: 30px;
+  border: 0;
+}
+footer .form__button button:hover {
+  background-color: rgb(205, 205, 205);
+}
+footer .card__apps {
+  display: flex;
+  align-items: center;
+}
+footer .card__apps .apps-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 30px;
+}
+footer .card__apps .apps-item .bi {
+  font-size: 25px;
+}
+footer .card__apps .apps-item p {
+  margin: 5px 0;
+}
+
+@media all and (max-width: 700px) {
+  footer {
+    display: none;
+  }
+}
 body {
   margin: 3%;
   font-family: sans-serif;
