@@ -109,4 +109,45 @@ section form .form__button button {
   width: 200px;
   padding: 5px;
   border-radius: 40px;
+}
+
+@media all and (max-width: 700px) {
+  nav {
+    margin: 60px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  nav .nav-icons {
+    display: none;
+  }
+  section {
+    margin: 65px 0;
+    justify-content: center;
+  }
+  section div h1 {
+    font-size: 25px;
+    margin: 0;
+  }
+  section div p {
+    font-size: 15px;
+    margin: 0;
+  }
+  section form .form__name {
+    margin: 0;
+  }
+  section form .form__name label {
+    margin: 0;
+  }
+  section form .form__name input {
+    width: 250px;
+  }
+  section form .form__email {
+    margin: 0;
+  }
+  section form .form__email label {
+    margin: 0;
+  }
+  section form .form__email input {
+    width: 250px;
+  }
 }/*# sourceMappingURL=log.css.map */
