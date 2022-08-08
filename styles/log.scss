@@ -1,5 +1,13 @@
 @use "navmix";
 
+@mixin input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 40px;
+  border: 0;
+  background-color: rgb(237, 235, 235);
+}
+
 body {
   margin: 3%;
   font-family: sans-serif;
@@ -27,54 +35,39 @@ section {
   form {
     display: flex;
     flex-direction: column;
-    .form__name {
-      margin: 10px;
-      label {
-        margin: 10px;
-      }
-      input {
-        width: 300px;
-        padding: 10px;
-        border-radius: 40px;
-        border: 0;
-        background-color: rgb(237, 235, 235);
-      }
-    }
-
+    .form__name,
     .form__email {
-      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      margin: 15px;
       label {
         margin: 10px;
       }
       input {
-        width: 300px;
-        padding: 10px;
-        border-radius: 40px;
-        border: 0;
-        background-color: rgb(237, 235, 235);
+        @include input;
       }
     }
 
     .form__button {
+      display: flex;
+      justify-content: center;
       button {
         margin: 20px;
         width: 200px;
         padding: 10px;
         border-radius: 50px;
         background-color: rgb(231, 231, 232);
-
       }
     }
   }
 }
 
 @media all and (max-width: 700px) {
-  
-    body {
-        margin: 10px;
-    }
+  body {
+    margin: 10px;
+  }
 
-    nav {
+  nav {
     margin: 3%;
     display: flex;
     flex-direction: column;
@@ -102,16 +95,7 @@ section {
     }
 
     form {
-      .form__name {
-        margin: 0;
-        label {
-          margin: 0;
-        }
-        input {
-          width: 250px;
-        }
-      }
-
+      .form__name,
       .form__email {
         margin: 0;
         label {
