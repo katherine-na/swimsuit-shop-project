@@ -90,19 +90,20 @@ section {
       }
       p {
         font-size: 15px;
-        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
       }
     }
 
     form {
       .form__name,
       .form__email {
-        margin: 0;
+        margin: 10px;
         label {
           margin: 0;
         }
         input {
-          width: 250px;
+          width: 230px;
         }
       }
     }
