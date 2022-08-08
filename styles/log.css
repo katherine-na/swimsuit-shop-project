@@ -134,11 +134,12 @@ section form .form__button button {
   }
   section div p {
     font-size: 15px;
-    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   section form .form__name,
 section form .form__email {
-    margin: 0;
+    margin: 10px;
   }
   section form .form__name label,
 section form .form__email label {
@@ -146,6 +147,6 @@ section form .form__email label {
   }
   section form .form__name input,
 section form .form__email input {
-    width: 250px;
+    width: 230px;
   }
 }/*# sourceMappingURL=log.css.map */
