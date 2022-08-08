@@ -1,118 +1,126 @@
-@use 'navmix';
-
+@use "navmix";
 
 body {
-    margin: 3%;
-    font-family: sans-serif;
+  margin: 3%;
+  font-family: sans-serif;
 }
 
 section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px;
+  div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 100px;
-    div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        h1 {
-            font-size: 40px;
-            margin: 10px;
-        }
-        p {
-            font-size: 20px;
-            margin: 0;
-        }
+    h1 {
+      font-size: 40px;
+      margin: 10px;
+    }
+    p {
+      font-size: 20px;
+      margin: 0;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    .form__name {
+      margin: 10px;
+      label {
+        margin: 10px;
+      }
+      input {
+        width: 300px;
+        padding: 10px;
+        border-radius: 40px;
+        border: 0;
+        background-color: rgb(237, 235, 235);
+      }
     }
 
-    form {
-        display: flex;
-        flex-direction: column;
-        .form__name {
-            margin: 10px;
-            label {
-                margin: 10px;
-            }
-            input {
-                width: 300px;
-                padding: 10px;
-                border-radius: 40px;
-                border: 0;
-                background-color:rgb(237, 235, 235);
-            }
-        }
-
-        .form__email {
-            margin: 10px;
-            label {
-                margin: 10px;
-            }
-            input {
-                width: 300px;
-                padding: 10px;
-                border-radius: 40px;
-                border: 0;
-                background-color: rgb(237, 235, 235);
-            }
-        }
-
-        .form__button {
-            button {
-                margin: 20px;
-                width: 200px;
-                padding: 5px;
-                border-radius: 40px;
-            }
-        }
+    .form__email {
+      margin: 10px;
+      label {
+        margin: 10px;
+      }
+      input {
+        width: 300px;
+        padding: 10px;
+        border-radius: 40px;
+        border: 0;
+        background-color: rgb(237, 235, 235);
+      }
     }
+
+    .form__button {
+      button {
+        margin: 20px;
+        width: 200px;
+        padding: 10px;
+        border-radius: 50px;
+        background-color: rgb(231, 231, 232);
+
+      }
+    }
+  }
 }
 
-@media all and (max-width:700px) {
-    
+@media all and (max-width: 700px) {
+  
+    body {
+        margin: 10px;
+    }
+
     nav {
-        margin: 60px 0;
-        display: flex;
-        flex-direction: column;
-        .nav-icons {
-            display: none;
-        }
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .nav-text {
+      margin: 20px;
     }
+    .nav-icons {
+      display: none;
+    }
+  }
 
-    section {
-        margin: 65px 0;
-        justify-content: center;
-        div {
-        h1 {
-            font-size: 25px;
-            margin: 0;
-        }
-       p {
-            font-size: 15px;
-            margin: 0;
-        }
-    }   
+  section {
+    margin: 65px 0;
+    justify-content: center;
+    div {
+      h1 {
+        font-size: 25px;
+        margin: 0;
+      }
+      p {
+        font-size: 15px;
+        margin: 0;
+      }
+    }
 
     form {
-        .form__name {
-            margin: 0;
-            label {
-                margin: 0;
-            }
-            input {
-                width: 250px;
-            }
+      .form__name {
+        margin: 0;
+        label {
+          margin: 0;
         }
+        input {
+          width: 250px;
+        }
+      }
 
-        .form__email {
-            margin: 0;
-            label {
-                margin: 0;
-            }
-            input {
-                width: 250px;
-            }
+      .form__email {
+        margin: 0;
+        label {
+          margin: 0;
         }
+        input {
+          width: 250px;
+        }
+      }
     }
-}
-       
+  }
 }
