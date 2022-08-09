@@ -227,6 +227,9 @@ body {
   nav .nav-sections .nav-items p {
     font-size: 13px;
   }
+  nav .nav-icons {
+    display: none;
+  }
   #tabs__section {
     flex-direction: column;
   }
