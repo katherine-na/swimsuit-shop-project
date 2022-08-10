@@ -49,36 +49,6 @@ body {
     margin: 10px;
   }
 
-  nav {
-    padding: 0;
-    flex-direction: column;
-    align-items: flex-start;
-    .nav-text {
-      margin: 30px 20px;
-      a {
-        font-size: 30px;
-      }
-      p {
-        font-size: 20px;
-      }
-    }
-
-    .nav-sections {
-      .nav-items {
-        img {
-          width: 70px;
-          height: 70px;
-        }
-        p {
-          font-size: 13px;
-        }
-      }
-    }
-    .nav-icons {
-      display: none;
-    }
-  }
-
   #tabs__section {
     flex-direction: column;
     .tabs__list {

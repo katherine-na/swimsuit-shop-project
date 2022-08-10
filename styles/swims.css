@@ -50,6 +50,32 @@ nav .nav-icons span p {
   margin: 0;
 }
 
+@media all and (max-width: 700px) {
+  nav {
+    padding: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav .nav-text {
+    margin: 30px 20px;
+  }
+  nav .nav-text a {
+    font-size: 30px;
+  }
+  nav .nav-text p {
+    font-size: 20px;
+  }
+  nav .nav-sections .nav-items img {
+    width: 70px;
+    height: 70px;
+  }
+  nav .nav-sections .nav-items p {
+    font-size: 13px;
+  }
+  nav .nav-icons {
+    display: none;
+  }
+}
 footer {
   background-color: rgba(236, 236, 236, 0.705);
   padding: 20px;
@@ -205,30 +231,6 @@ body {
 @media all and (max-width: 700px) {
   body {
     margin: 10px;
-  }
-  nav {
-    padding: 0;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  nav .nav-text {
-    margin: 30px 20px;
-  }
-  nav .nav-text a {
-    font-size: 30px;
-  }
-  nav .nav-text p {
-    font-size: 20px;
-  }
-  nav .nav-sections .nav-items img {
-    width: 70px;
-    height: 70px;
-  }
-  nav .nav-sections .nav-items p {
-    font-size: 13px;
-  }
-  nav .nav-icons {
-    display: none;
   }
   #tabs__section {
     flex-direction: column;
