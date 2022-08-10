@@ -125,6 +125,10 @@ footer .card__apps .apps-item p {
     flex-wrap: wrap;
     margin-top: 30px;
   }
+  footer .card__apps .apps-item:first-child,
+footer .card__apps .apps-item:nth-child(4) {
+    display: none;
+  }
 }
 body {
   margin: 3%;
