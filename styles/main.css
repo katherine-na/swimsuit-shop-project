@@ -35,21 +35,21 @@ nav .nav-sections .nav-items p {
 nav .nav-icons {
   display: flex;
 }
-nav .nav-icons span {
+nav .nav-icons div {
   margin-right: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-nav .nav-icons span .bi {
+nav .nav-icons div .bi {
   font-size: 30px;
 }
-nav .nav-icons span a {
+nav .nav-icons div a {
   text-decoration: none;
   color: black;
   margin: 0;
 }
-nav .nav-icons span p {
+nav .nav-icons div p {
   margin: 0;
 }
 
@@ -288,7 +288,7 @@ footer .card__apps .apps-item p {
     font-size: 13px;
   }
   nav .nav-icons {
-    display: flex;
+    display: none;
   }
   .intro img {
     display: none;

@@ -91,7 +91,7 @@ nav {
 
   .nav-icons {
     display: flex;
-    span {
+    div {
       margin-right: 50px;
       display: flex;
       flex-direction: column;
@@ -313,7 +313,7 @@ footer {
       }
     }
     .nav-icons {
-      display: flex;
+      display: none;
     }
   }
 
