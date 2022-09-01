@@ -167,11 +167,20 @@ form .password {
   flex-direction: column;
   margin: 15px;
 }
-form .form__name span label,
-form .form__lname span label,
-form .form__email span label,
-form .password span label {
+form .form__name label,
+form .form__lname label,
+form .form__email label,
+form .password label {
   margin: 10px;
+  font-size: 20px;
+}
+form .form__name span .bi,
+form .form__lname span .bi,
+form .form__email span .bi,
+form .password span .bi {
+  font-size: 25px;
+  margin: 10px;
+  color: black;
 }
 form .form__name span input,
 form .form__lname span input,
