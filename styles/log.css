@@ -135,57 +135,77 @@ body {
   font-family: sans-serif;
 }
 
-section {
+#log-in-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 100px;
 }
-section div {
+#log-in-info div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-section div h1 {
+#log-in-info div h1 {
   font-size: 40px;
   margin: 10px;
 }
-section div p {
+#log-in-info div p {
   font-size: 20px;
   margin: 0;
 }
-section form {
+#log-in-info form {
   display: flex;
   flex-direction: column;
 }
-section form .form__name,
-section form .form__email {
+#log-in-info form .form__name,
+#log-in-info form .form__email {
   display: flex;
   flex-direction: column;
   margin: 15px;
 }
-section form .form__name label,
-section form .form__email label {
+#log-in-info form .form__name label,
+#log-in-info form .form__email label {
   margin: 10px;
 }
-section form .form__name input,
-section form .form__email input {
+#log-in-info form .form__name span,
+#log-in-info form .form__email span {
+  display: flex;
+  align-items: center;
+}
+#log-in-info form .form__name span .bi,
+#log-in-info form .form__email span .bi {
+  font-size: 25px;
+  margin: 10px;
+  color: black;
+}
+#log-in-info form .form__name span input,
+#log-in-info form .form__email span input {
   width: 300px;
   padding: 10px;
   border-radius: 40px;
   border: 0;
   background-color: rgb(237, 235, 235);
 }
-section form .form__button {
+#log-in-info form .form__button {
   display: flex;
   justify-content: center;
 }
-section form .form__button button {
+#log-in-info form .form__button button {
   margin: 20px;
   width: 200px;
   padding: 10px;
   border-radius: 50px;
   background-color: rgb(231, 231, 232);
+}
+#log-in-info form .form__button button:hover {
+  background-color: rgba(234, 234, 234, 0.706);
+}
+#log-in-info .create-account-link a {
+  color: rgb(163, 6, 171);
+}
+#log-in-info .create-account-link a:hover {
+  color: rgb(77, 1, 98);
 }
 
 @media all and (max-width: 700px) {

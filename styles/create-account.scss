@@ -8,6 +8,11 @@
   border: 0;
   background-color: rgb(237, 235, 235);
 }
+@mixin icon {
+  font-size: 25px;
+  margin: 10px;
+  color: black;
+}
 
 body {
   margin: 3%;
@@ -44,9 +49,13 @@ form {
     display: flex;
     flex-direction: column;
     margin: 15px;
+    label {
+      margin: 10px;
+      font-size: 20px;
+    }
     span {
-      label {
-        margin: 10px;
+      .bi {
+        @include icon;
       }
       input {
         @include input;
