@@ -45,7 +45,7 @@ body {
 
 // Responsive Design //
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 600px) {
   body {
     margin: 10px;
   }
@@ -68,4 +68,23 @@ body {
       }
     }
   }
+}
+
+@media all and (max-width: 1473px) {
+
+  #tabs__section {
+    .tabs__list {
+      width: 30%;
+      .tabs__img {
+        img {
+        width: 200px;
+        height: 230px;
+        }
+      }
+      .tabs__text {
+        margin: 50px;
+      }
+    }
+  }
+
 }

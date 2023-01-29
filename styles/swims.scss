@@ -62,3 +62,22 @@ body {
     }
   }
 }
+
+@media all and (max-width: 1473px) {
+
+  #tabs__section {
+    .tabs__list {
+      width: 30%;
+      .tabs__img {
+        img {
+        width: 200px;
+        height: 230px;
+        }
+      }
+      .tabs__text {
+        margin: 50px;
+      }
+    }
+  }
+
+}

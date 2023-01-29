@@ -142,7 +142,8 @@ nav {
       .collection-item {
         @include card;
         img {
-          @include collection_img;
+          width: 250px;
+          height: 300px;
         }
         p {
           text-align: center;
@@ -166,8 +167,7 @@ nav {
   margin-top: 100px;
   margin-bottom: 100px;
   img {
-    width: 550px;
-    height: 750px;
+    @include collection_img;
   }
 
   .swimwear {
@@ -392,6 +392,44 @@ footer {
     .card__apps {
       .apps-item {
         margin: 5px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1473px) {
+  #collection-accesories {
+    .summer-img {
+      img {
+        width: 500px;
+        height: 510px;
+      }
+    }
+    .collection-sections {
+      .collection {
+        .collection-item {
+          height: 330px;
+          img {
+            width: 190px;
+          }
+        }
+      }
+    }
+  }
+}
+#collection-swimwear {
+  img {
+    width: 455px;
+    height: 550px;
+  }
+
+  .swimwear {
+    .swimwear-item {
+      .item {
+      height: 330px;
+        img {
+          width: 190px;
+        }
       }
     }
   }

@@ -76,6 +76,14 @@ nav .nav-icons span p {
     display: none;
   }
 }
+@media all and (max-width: 1473px) {
+  nav .nav-text a {
+    font-size: 40px;
+  }
+  nav .nav-text p {
+    font-size: 25px;
+  }
+}
 footer {
   background-color: rgba(236, 236, 236, 0.705);
   padding: 20px;
@@ -182,5 +190,17 @@ body {
     justify-content: center;
     flex-direction: column;
     margin: 0 20px;
+  }
+}
+@media all and (max-width: 1473px) {
+  #tabs__section .tabs__list {
+    width: 30%;
+  }
+  #tabs__section .tabs__list .tabs__img img {
+    width: 200px;
+    height: 230px;
+  }
+  #tabs__section .tabs__list .tabs__text {
+    margin: 50px;
   }
 }/*# sourceMappingURL=collection.css.map */

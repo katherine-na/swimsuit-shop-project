@@ -134,3 +134,36 @@ body {
     }
   }
 }
+
+@media all and (max-width: 1473px) {
+  #log-in-info {
+    margin-block: 40px;
+    div {
+      h1 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+    form {
+      .form__name, .form__email {
+        margin: 5px;
+        label {
+          margin: 5px;
+        }
+        span {
+          input {
+            padding: 8px;
+          }
+        }
+      } 
+      .form__button {
+        button {
+          width: 100px;
+          margin: 5px;
+        }
+      }
+    }
+  }
+}
