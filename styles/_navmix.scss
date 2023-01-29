@@ -89,3 +89,16 @@ nav {
     }
   }
 }
+
+@media all and (max-width: 1473px) {
+  nav {
+    .nav-text {
+      a {
+        font-size: 40px;
+      }
+      p {
+        font-size: 25px;
+      }
+    }
+  }
+}

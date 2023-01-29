@@ -125,3 +125,29 @@ form {
     }
   }
 }
+
+@media all and (max-width: 1473px) {
+  section {
+    margin-block: 40px;
+    div {
+      h1 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+
+  form {
+    .form__name,
+    .form__lname,
+    .form__email,
+    .password {
+      margin: 0;
+      label {
+        font-size: 15px;
+      }
+    }
+  }
+}

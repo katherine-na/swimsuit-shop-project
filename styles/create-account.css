@@ -76,6 +76,14 @@ nav .nav-icons span p {
     display: none;
   }
 }
+@media all and (max-width: 1473px) {
+  nav .nav-text a {
+    font-size: 40px;
+  }
+  nav .nav-text p {
+    font-size: 25px;
+  }
+}
 footer {
   background-color: rgba(236, 236, 236, 0.705);
   padding: 20px;
@@ -250,5 +258,28 @@ section form .form__lname input,
 section form .form__email input,
 section form .password input {
     width: 230px;
+  }
+}
+@media all and (max-width: 1473px) {
+  section {
+    margin-block: 40px;
+  }
+  section div h1 {
+    font-size: 30px;
+  }
+  section div p {
+    font-size: 15px;
+  }
+  form .form__name,
+form .form__lname,
+form .form__email,
+form .password {
+    margin: 0;
+  }
+  form .form__name label,
+form .form__lname label,
+form .form__email label,
+form .password label {
+    font-size: 15px;
   }
 }/*# sourceMappingURL=create-account.css.map */

@@ -76,6 +76,14 @@ nav .nav-icons span p {
     display: none;
   }
 }
+@media all and (max-width: 1473px) {
+  nav .nav-text a {
+    font-size: 40px;
+  }
+  nav .nav-text p {
+    font-size: 25px;
+  }
+}
 footer {
   background-color: rgba(236, 236, 236, 0.705);
   padding: 20px;
@@ -248,5 +256,29 @@ section form .form__email label {
   section form .form__name input,
 section form .form__email input {
     width: 230px;
+  }
+}
+@media all and (max-width: 1473px) {
+  #log-in-info {
+    margin-block: 40px;
+  }
+  #log-in-info div h1 {
+    font-size: 30px;
+  }
+  #log-in-info div p {
+    font-size: 15px;
+  }
+  #log-in-info form .form__name, #log-in-info form .form__email {
+    margin: 5px;
+  }
+  #log-in-info form .form__name label, #log-in-info form .form__email label {
+    margin: 5px;
+  }
+  #log-in-info form .form__name span input, #log-in-info form .form__email span input {
+    padding: 8px;
+  }
+  #log-in-info form .form__button button {
+    width: 100px;
+    margin: 5px;
   }
 }/*# sourceMappingURL=log.css.map */
