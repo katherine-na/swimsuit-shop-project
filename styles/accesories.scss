@@ -65,6 +65,9 @@ body {
         justify-content: center;
         flex-direction: column;
         margin: 0 20px;
+        .text-details {
+          text-decoration: none;
+        }
       }
     }
   }

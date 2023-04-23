@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/pdp-accesories.css" />
+    <title>Sunshine | PDP</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-text">
+            <a href="index.html">Sunshine</a>
+        </div>
+        <div class="nav-sections">
+            <div class="nav-items">
+              <a href="swims.html">
+                <img src="../assets/images/swimsuit-nav.jpg" alt="" />
+              </a>
+              <p>Swimsuit</p>
+            </div>
+            <div class="nav-items">
+              <a href="accesories.html">
+                <img src="../assets/images/accesories-nav.jpg" alt="" />
+              </a>
+              <p>Accesories</p>
+            </div>
+            <div class="nav-items">
+              <a href="collection.html">
+                <img src="../assets/images/bikini-nav.jpg" alt="" />
+              </a>
+              <p>Bikini</p>
+            </div>
+          </div>
+          
+          <div class="nav-icons">
+            <div>
+              <i class="bi bi-person"></i>
+              <a href="log.html">Log in</a>
+            </div>
+            <div>
+              <i class="bi bi-cart"></i>
+              <p>Cart</p>
+            </div>
+          </div>
+    </nav>
+
+    <div class="wrapper">
+        <div class="thumbnail-containe">    
+            <div class="thumbnail">
+                <img class="preview" src="https://static.lefties.com/9/photos2/2023/V/1/1/p/1508/990/202/1508990202_2_1_1.jpg?t=1647433800141" onmouseover="upDate(this)" onclick="unDo()"/>
+            </div>
+            <div class="thumbnail">
+                <img class="preview" src="https://static.lefties.com/9/photos2/2023/V/1/1/p/1508/990/202/1508990202_2_3_1.jpg?t=1647433817690" onmouseover="upDate(this)" onclick="unDo()"/>
+            </div>
+        </div>
+        <div id="image"></div>
+        <div class="pdp">
+            <h2>Sporty platform sandals</h2>
+            <p>USD 10.99</p>
+            <p>High-waist denim shorts with an elastic waistband. Featuring two front pockets. Made of a pleasant and comfortable 100% cotton fabric.</p>
+            <p>Color: Red</p>
+            <p>Size: S</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+    <script>
+        const upDate = (previewPic) => {
+            var divImage = document.getElementById("image");
+            divImage.style.backgroundImage = `url(${previewPic.src})`;
+            divImage.innerHTML = previewPic.alt;
+        }
+
+        const unDo = () => {
+            var divUnDo = document.getElementById("image");
+            divUnDo.style.backgroundImage = "url('')";
+        }
+    </script>
+</body>
+</html>

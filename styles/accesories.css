@@ -192,6 +192,9 @@ body {
     flex-direction: column;
     margin: 0 20px;
   }
+  #tabs__section .tabs__list .tabs__text .text-details {
+    text-decoration: none;
+  }
 }
 @media all and (max-width: 1473px) {
   #tabs__section .tabs__list {
